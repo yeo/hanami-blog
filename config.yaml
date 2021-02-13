@@ -1,0 +1,148 @@
+baseURL: "http://hanami.run/blog"
+languageCode: "en-us"
+title: "Shipping Hanami - We make email forwarding easier for you"
+
+theme: "PaperMod"
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: On Shipping Hanami - Best Email Forwarding Service
+    description: "Hanami - fast and reliable email forwarding service for your domains. Incoming mail API for your web service. Support Rails action mailbox. Replacement for SES incoming. Built-in support for DKIM, SRS, SPF, ARC, DMARC, and more. No credit card required."
+    author: ["Vinh", "Ruby"]
+    # author: ["Me", "You"] # multiple authors
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    disableSpecial1stPost: false
+    comments: false
+    hidemeta: false
+    showtoc: true
+    tocopen: true
+    ShowPostNavLinks: true
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "<link / abs url>"
+        favicon16x16: "<link / abs url>"
+        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "<link / abs url>"
+        safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: Hanami
+        icon: /blog/apple-touch-icon.png
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: false # needs to be explicitly set
+        title: Hanami
+        subtitle: "Make email forwarding easier for everyone"
+        imageUrl: "<img location>"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+            - name: Posts
+              url: posts
+            - name: Tags
+              url: tags
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Not your ordinary email forwarding service🚀"
+        Content: We make email forwarding easier for everyone and also make it fun with webhook and our CLI.
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/kureikain"
+        - name: stackoverflow
+          url: "https://stackoverflow.com/"
+        - name: github
+          url: "https://github.com/yeo"
+
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+menu:
+    main:
+        - name: Archive
+          url: archives
+          weight: 5
+
+        - identifier: categories
+          name: categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+        - identifier: docs
+          name: "Docs"
+          url: https://hanami.run/docs
+          weight: 30
+        - identifier: faq
+          name: "FAQ"
+          url: https://hanami.run/faq
+          weight: 40
+        - identifier: Pricing
+          name: "Pricing"
+          url: https://hanami.run/#pricing
+          weight: 50
+        - identifier: contact
+          name: "Contact"
+          url: https://hanami.run/contact
+          weight: 60
+        - identifier: landingpage
+          name: "→hanami.run"
+          url: https://hanami.run
+          weight: 100000
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
