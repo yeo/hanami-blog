@@ -1,6 +1,6 @@
 baseURL: "http://hanami.run/blog"
 languageCode: "en-us"
-title: "Shipping Hanami - We make email forwarding easier for you"
+title: "On Shipping Hanami - fast and reliable email forwarding service"
 
 theme: "PaperMod"
 paginate: 5
@@ -37,13 +37,13 @@ params:
     ShowPostNavLinks: true
 
     assets:
-        # disableHLJS: true # to disable highlight.js
+        disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "https://hanami.run/apple-touch-icon.png"
+        favicon16x16: "https://hanami.run/favicon-16x16.png"
+        favicon32x32: "https://hanami.run/favicon-32x32.png"
+        apple_touch_icon: "https://hanami.run/apple-touch-icon.png"
+        safari_pinned_tab: "https://hanami.run/apple-touch-icon.png"
 
     label:
         text: Hanami
@@ -78,9 +78,9 @@ params:
         - name: github
           url: "https://github.com/yeo"
 
-    analytics:
-        google:
-            SiteVerificationTag: "XYZabc"
+    #analytics:
+    #    google:
+    #        SiteVerificationTag: "XYZabc"
 
     cover:
         hidden: true # hide everywhere but not in structured data
@@ -99,9 +99,9 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - name: Archive
+        - name: archive
           url: archives
-          weight: 5
+          weight: 1
 
         - identifier: categories
           name: categories
@@ -139,10 +139,10 @@ taxonomies:
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+markup:
+    highlight:
+      # anchorLineNos: true
+      codeFences: true
+      guessSyntax: true
+      lineNos: true
+      style: monokai
