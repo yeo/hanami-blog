@@ -3,7 +3,7 @@ languageCode: "en-us"
 title: "On Shipping Hanami - fast and reliable email forwarding service"
 
 theme: "PaperMod"
-paginate: 5
+paginate: 10
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -47,8 +47,8 @@ params:
 
     label:
         text: Hanami
-        icon: /blog/apple-touch-icon.png
-        iconHeight: 35
+        icon: /blog/logo.png
+        iconHeight: 40
 
     # profile-mode
     profileMode:
@@ -67,7 +67,7 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Not your ordinary email forwarding service🚀"
+        Title: "Email forwarding makes easy🚀"
         Content: We make email forwarding easier for everyone and also make it fun with webhook and our CLI.
 
     socialIcons:
@@ -99,38 +99,35 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - name: archive
+        - identifier: archives
+          name: Archive
           url: archives
-          weight: 1
+          weight: 100
 
-        - identifier: categories
-          name: categories
-          url: /categories/
-          weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
-          weight: 20
+        #- identifier: categories
+        #  name: categories
+        #  url: /categories/
+        #  weight: 200
+        #- identifier: tags
+        #  name: tags
+        #  url: /tags/
+        #  weight: 20
         - identifier: docs
           name: "Docs"
           url: https://hanami.run/docs
-          weight: 30
-        - identifier: faq
-          name: "FAQ"
-          url: https://hanami.run/faq
-          weight: 40
+          weight: 300
         - identifier: Pricing
           name: "Pricing"
           url: https://hanami.run/#pricing
-          weight: 50
-        - identifier: contact
-          name: "Contact"
-          url: https://hanami.run/contact
-          weight: 60
+          weight: 400
         - identifier: landingpage
           name: "→hanami.run"
           url: https://hanami.run
-          weight: 100000
+          weight: 1
+        - identifier: search
+          name: "Search"
+          url: /search
+          weight: 500
 
 taxonomies:
     category: categories
@@ -146,3 +143,9 @@ markup:
       guessSyntax: true
       lineNos: true
       style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
