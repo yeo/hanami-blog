@@ -19,7 +19,7 @@ minify:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: On Shipping Hanami - Best Email Forwarding Service
-    description: "Hanami - fast and reliable email forwarding service for your domains. Incoming mail API for your web service. Support Rails action mailbox. Replacement for SES incoming. Built-in support for DKIM, SRS, SPF, ARC, DMARC, and more. No credit card required."
+    description: "Hanami - fast and reliable email forwarding service for your domains. Incoming mail API handler, email webhooks for your web services. Support Rails action mailbox. Replacement for SES incoming. Built-in support for DKIM, SRS, SPF, ARC, DMARC, and more. No credit card required."
     author: ["Vinh", "Ruby"]
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
