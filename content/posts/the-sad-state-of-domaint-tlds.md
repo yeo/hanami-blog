@@ -1,20 +1,27 @@
 ---
-title: "The Sad State of Domaint Tlds"
+title: "The Sad State of Domaint TLDs"
 date: 2021-02-12T16:00:34-08:00
-draft: false
+draft: true
 
 author: Vinh
 ---
 
 # Launch
 
-I recently launch an email forwarding service. Naming is hard. My life has been affected by Japanese culture and I like flower a lot. I like watchin flowers flews in the air and think that email forwarding has a similar illussion. So I name the service Hanami. Which is an act of watching the flower.
+I recently launch an email forwarding service. Naming is hard. I usually
+get the naming inspiration from Japanese culture. Hanami is an email
+forwarding service, its primary job is to fan out emails to destination,
+this forms an illusion of flower flying in the wind for me and I decided
+to use a funny name call Hanami, which is the Japanese traditional custom
+of enjoying the transient beauty of flowers
 
-But both of hanami.com or hanami.co   hanami.io are unvailable. I ended up with hanami.run.
+However, all of popular domains such as hanami.com, hanami.co and hanami.io
+are unvailable. I ended up with hanami.run.
 
-Once running this service and getting a few customers and email started to flower in. Currently we have more than 20 customers using the services.
+Once running this service and getting a few customers and emails started to
+flow in. I quickly learn a pattern: Spam
 
-# Spam on tlds
+# Spam: Build and they will come
 
 One particular thing is the email: almost all spam email come from non .com TLD. Especial .cam, work, .tech, .xyz and myself .run.
 
