@@ -48,7 +48,9 @@ params:
     label:
         text: Hanami
         icon: /blog/logo.png
-        iconHeight: 40
+        iconHeight: 48
+        # Should we hide text next to logo
+        hideText: true
 
     # profile-mode
     profileMode:
@@ -67,8 +69,9 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Email forwarding makes easy🚀"
-        Content: We make email forwarding easier for everyone and also make it fun with webhook and our CLI.
+        Title: "Receive, Send & Forward emails with your own domain"
+        Content: |
+          Share engineering lesson that help us build an email forwarding service that support webhook, Email API, CLI
 
     socialIcons:
         - name: twitter
@@ -112,18 +115,21 @@ menu:
         #  name: tags
         #  url: /tags/
         #  weight: 20
-        - identifier: docs
-          name: "Docs"
-          url: https://hanami.run/docs
-          weight: 300
+        #- identifier: docs
+        #  name: "Docs"
+        #  url: https://hanami.run/docs
+        #  weight: 300
+
         - identifier: Pricing
           name: "Pricing"
           url: https://hanami.run/#pricing
-          weight: 400
+          weight: 2
+
         - identifier: landingpage
           name: "→hanami.run"
           url: https://hanami.run
           weight: 1
+
         - identifier: search
           name: "Search"
           url: /search
