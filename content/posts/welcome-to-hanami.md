@@ -41,7 +41,7 @@ better visibility into what happen with your emails, why emails won't
 deliver, fast delivery time and building workflow around email with
 webhook.
 
-Example our [dev channel](https://hanami.run/channel/dev) is built with
+Example our [dev channel](https://hanami.run/channel/devnews) is built with
 our API.
 
 On top of that, we know that receiving email is half of problem, people
