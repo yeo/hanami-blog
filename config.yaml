@@ -125,11 +125,6 @@ menu:
           url: https://hanami.run/#pricing
           weight: 2
 
-        - identifier: landingpage
-          name: "→hanami.run"
-          url: https://hanami.run
-          weight: 1
-
         - identifier: search
           name: "Search"
           url: /search
