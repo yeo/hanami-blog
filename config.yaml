@@ -1,6 +1,6 @@
-baseURL: "http://hanami.run/blog"
+baseURL: "https://hanami.run/blog"
 languageCode: "en-us"
-title: "On Shipping Hanami - fast and reliable email forwarding service"
+title: "Hanami - Fast& Reliable email forwarding service"
 
 theme: "PaperMod"
 paginate: 10
@@ -22,7 +22,7 @@ params:
     description: "Hanami - fast and reliable email forwarding service for your domains. Incoming mail API handler, email webhooks for your web services. Support Rails action mailbox. Replacement for SES incoming. Built-in support for DKIM, SRS, SPF, ARC, DMARC, and more. No credit card required."
     author: ["Vinh", "Ruby"]
     # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
+    images: ["/blog/hanami-og.png"]
 
     defaultTheme: auto # dark, light
     disableThemeToggle: false
@@ -124,6 +124,11 @@ menu:
           name: "Pricing"
           url: https://hanami.run/#pricing
           weight: 2
+
+        - identifier: landingpage
+          name: "hanami.run"
+          url: https://hanami.run
+          weight: 1
 
         - identifier: search
           name: "Search"
