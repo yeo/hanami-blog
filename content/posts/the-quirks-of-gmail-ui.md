@@ -10,7 +10,7 @@ categories: ["dev"]
 series: ["Tale of email"]
 ---
 
-# A Tale of email
+# A Tale of DKIM signed email
 
 I run a [hanami](https://hanami.run), an email forwarding service and
 I have a few stories about email that I want to share. Today I want to
@@ -47,12 +47,13 @@ B2 is definetely better here, SPF is passed, DKIM is valid.
 
 ___
 
+# The end
 
 Now did you know that the A2 is the header of A1 email. Somehow when we signed a message with DKIM, google decided to show the "Via way.hanami.run", which is technically correct because the message lack of DKIM signature for original gmail address. An intermidate mail forwarding service sign the message with way.hanami.run.
 
-However, the way the UI represent it make the mail server that spend extra effort to sign their emails looks not trustworthy, while the message that failing both of SPF and not doing DKIM sining looks `correct`.
+However, the way the UI represent it make the mail server that spend extra effort to sign their emails looks not trustworthy, while the message that failed both SPF and DKIM  looks `correct` on their UI.
 
-I hope someone at Gmail will eventually fix this and we can all signed
-our email with DKIM like what we do with https.
+I hope someone at Gmail will eventually fix this and we can all start to
+sign our emails with DKIM like what we do with https.
 
 Until next time for more email story.
