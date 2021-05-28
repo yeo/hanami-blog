@@ -39,15 +39,15 @@ params:
     assets:
         disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "https://hanami.run/apple-touch-icon.png"
-        favicon16x16: "https://hanami.run/favicon-16x16.png"
-        favicon32x32: "https://hanami.run/favicon-32x32.png"
-        apple_touch_icon: "https://hanami.run/apple-touch-icon.png"
-        safari_pinned_tab: "https://hanami.run/apple-touch-icon.png"
+        favicon: "https://mailwip.com/apple-touch-icon.png"
+        favicon16x16: "https://mailwip.com/favicon-16x16.png"
+        favicon32x32: "https://mailwip.com/favicon-32x32.png"
+        apple_touch_icon: "https://mailwip.com/apple-touch-icon.png"
+        safari_pinned_tab: "https://mailwip.com/apple-touch-icon.png"
 
     label:
         text: Mailwip
-        icon: /blog/logo.png
+        icon: /blog/hotlink-ok/logo.png
         iconHeight: 48
         iconWidth: 48
         # Should we hide text next to logo
@@ -118,12 +118,12 @@ menu:
         #  weight: 20
         #- identifier: docs
         #  name: "Docs"
-        #  url: https://hanami.run/docs
+        #  url: https://mailwip.com/docs
         #  weight: 300
 
         - identifier: Pricing
           name: "Pricing"
-          url: https://hanami.run/#pricing
+          url: https://mailwip.com/#pricing
           weight: 20
 
         - identifier: landingpage
