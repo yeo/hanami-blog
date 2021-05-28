@@ -2,6 +2,9 @@
 title: "2021-05-17 SMTP Incident"
 date: 2021-05-17T14:40:56-07:00
 draft: false
+
+categories: ["hanami", "mailwip"]
+tags: ["incident"]
 ---
 
 Between 15:00UTC and 22:00UTC our email forwarding was being slow or
