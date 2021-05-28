@@ -13,7 +13,7 @@ tags: ["news", "update"]
 
 For existing customers, nothing change in your domains or DNS config.
 
-We want to emphasize that *No action is require on your end as an existing customer*. All existing addresses that you have been configuring such as mx1.hanami.run,
+We want to emphasize that **No action is require on your end as an existing customer**. All existing addresses that you have been configuring such as mx1.hanami.run,
 mx2.hanami.run, spf.hanami.run and smtp.hanami.run will continue to work
 forever as they were.
 
