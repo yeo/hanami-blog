@@ -12,7 +12,7 @@ series: ["Tale of email"]
 
 # A Tale of DKIM signed email
 
-I run a [hanami](https://hanami.run), an email forwarding service and
+I run a [mailwip(former hanami)](https://mailwip.com), an email forwarding service and
 I have a few stories about email that I want to share. Today I want to
 talk about Gmail.
 
