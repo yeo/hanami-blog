@@ -1,6 +1,6 @@
-# hanami.run tech blog
+# Mailwip tech blog
 
-This is the source of https://hanami.run/blog
+This is the source of https://mailwip.com/blog
 
 # Development
 

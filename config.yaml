@@ -1,6 +1,6 @@
-baseURL: "https://hanami.run/blog"
+baseURL: "https://mailwip.com/blog"
 languageCode: "en-us"
-title: "Hanami - Fast& Reliable email forwarding service"
+title: "Mailwip: Fast, Reliable Email Forwarding for custom domain"
 
 theme: "PaperMod"
 paginate: 10
@@ -18,11 +18,11 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: On Shipping Hanami - Best Email Forwarding Service
-    description: "Hanami - fast and reliable email forwarding service for your domains. Incoming mail API handler, email webhooks for your web services. Support Rails action mailbox. Replacement for SES incoming. Built-in support for DKIM, SRS, SPF, ARC, DMARC, and more. No credit card required."
+    title: On Shipping Mailwip - Best Email Forwarding Service
+    description: "Mailwip - fast and reliable email forwarding service for your domains. Incoming mail API handler, email webhooks for your web services. Support Rails action mailbox. Replacement for SES incoming. Built-in support for DKIM, SRS, SPF, ARC, DMARC, and more. No credit card required."
     author: ["Vinh", "Ruby"]
     # author: ["Me", "You"] # multiple authors
-    images: ["/blog/hanami-og.png"]
+    images: ["/blog/hotlink-ok/home-og.png"]
 
     defaultTheme: auto # dark, light
     disableThemeToggle: false
@@ -46,16 +46,17 @@ params:
         safari_pinned_tab: "https://hanami.run/apple-touch-icon.png"
 
     label:
-        text: Hanami
+        text: Mailwip
         icon: /blog/logo.png
         iconHeight: 48
+        iconWidth: 48
         # Should we hide text next to logo
         hideText: true
 
     # profile-mode
     profileMode:
         enabled: false # needs to be explicitly set
-        title: Hanami
+        title: Mailwip
         subtitle: "Make email forwarding easier for everyone"
         imageUrl: "<img location>"
         imageWidth: 120
@@ -123,12 +124,22 @@ menu:
         - identifier: Pricing
           name: "Pricing"
           url: https://hanami.run/#pricing
-          weight: 2
+          weight: 20
 
         - identifier: landingpage
-          name: "hanami.run"
-          url: https://hanami.run
+          name: "/mailwip.com"
+          url: https://mailwip.com
           weight: 1
+
+        - identifier: api
+          name: "API"
+          url: https://mailwip.com/api
+          weight: 30
+
+        - identifier: doc
+          name: "Docs"
+          url: https://mailwip.com/docs
+          weight: 31
 
         - identifier: search
           name: "Search"
