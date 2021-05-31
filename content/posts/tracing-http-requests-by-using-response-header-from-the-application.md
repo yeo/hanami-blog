@@ -19,13 +19,13 @@ Or sometime if we detect that user is repeated trying to do some
 actions, it could mean a feature didn't work as expected and our users
 is frustrated to do something, we will see and fix it.
 
-As an email forwarding services, our users have to update DNS, wait until
+As an [email forwarding service](https://mailwip.com), our users have to update DNS, wait until
 DNS is propagated, sometime the DNS looked to be updated on their side
 but didn't on our end and user repeatedly click re-check DNS button. We
 would love to track how often this occurs.
 
 We can add client tracking code, or server side tracking code. But being
-an email forwarding service, we try to honor our user privacy, we have
+an [email forwarding service](https://mailwip.com), we try to honor our user privacy, we have
 no client side tracking.
 
 On server side, we can inserts event such as request path, request user
