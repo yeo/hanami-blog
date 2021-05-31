@@ -3,7 +3,7 @@ title: "Welcome to Hanami"
 date: 2021-02-10T23:36:50-08:00
 draft: false
 
-author: "Vinh"
+author: "vinh"
 
 categories: ["hanami"]
 tags: ["news", "update"]
