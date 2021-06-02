@@ -3,6 +3,7 @@ title: "Tracing Http Requests by Using Response Header From the Application"
 date: 2021-05-30T23:30:01-07:00
 draft: false
 
+author: Vinh
 categories: ["devops"]
 tags: ["nginx", "log"]
 

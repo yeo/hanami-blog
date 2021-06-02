@@ -13,13 +13,13 @@ tags: ["news", "update"]
 
 For existing customers, nothing change in your domains or DNS config.
 
-We want to emphasize that **No action is require on your end as an existing customer**. All existing addresses that you have been configuring such as mx1.hanami.run,
-mx2.hanami.run, spf.hanami.run and smtp.hanami.run will continue to work
+We want to emphasize that **No action is require on your end as an existing customer**. All existing addresses that you have been configuring such as **mx1.hanami.run**,
+**mx2.hanami.run**, **spf.hanami.run** and **smtp.hanami.run** will continue to work
 forever as they were.
 
 Our public facing website are now [mailwip.com](https://mailwip.com).
 
-On *June 7*, when you visit any public facing address with our
+On *July 15*, when you visit any public facing address with our
 *.hanami.run, you will be redirect to mailwip.com. Below is a fulllist
 of domain changes.
 
