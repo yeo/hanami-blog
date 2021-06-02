@@ -1,4 +1,4 @@
-baseURL: "https://mailwip.com/blog"
+baseURL: "https://hanami.run/blog"
 languageCode: "en-us"
 title: "Mailwip: Fast, Reliable Email Forwarding for custom domain"
 
