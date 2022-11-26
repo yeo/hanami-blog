@@ -19,7 +19,7 @@ forever as they were.
 
 Our public facing website are now [mailwip.com](https://mailwip.com).
 
-On *July 15*, when you visit any public facing address with our
+On *Nov 26*, when you visit any public facing address with our
 *.hanami.run, you will be redirect to mailwip.com. Below is a fulllist
 of domain changes.
 
