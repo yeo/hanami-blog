@@ -104,9 +104,9 @@ params:
 menu:
     main:
         - identifier: archives
-          name: Archive
+          name: Articles
           url: archives
-          weight: 100
+          weight: 1
 
         #- identifier: categories
         #  name: categories
@@ -121,16 +121,6 @@ menu:
         #  url: https://mailwip.com/docs
         #  weight: 300
 
-        - identifier: Pricing
-          name: "Pricing"
-          url: https://mailwip.com/#pricing
-          weight: 20
-
-        - identifier: landingpage
-          name: "/mailwip.com"
-          url: https://mailwip.com
-          weight: 1
-
         - identifier: api
           name: "API"
           url: https://mailwip.com/api
@@ -139,12 +129,22 @@ menu:
         - identifier: doc
           name: "Docs"
           url: https://mailwip.com/docs
-          weight: 31
+          weight: 20
 
-        - identifier: search
-          name: "Search"
-          url: /search
-          weight: 500
+        - identifier: Pricing
+          name: "Pricing"
+          url: https://mailwip.com/#pricing
+          weight: 40
+
+        - identifier: landingpage
+          name: "➜ mailwip.com"
+          url: https://mailwip.com
+          weight: 100
+
+        #        - identifier: search
+        #          name: "Search"
+        #          url: /search
+        #          weight: 50
 
 taxonomies:
     category: categories
